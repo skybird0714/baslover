@@ -13,7 +13,7 @@ build_exe_options = {
 
 # 基本信息
 setup(
-    name="BAguesser反向查询",
+    name="BAslover v1.1",
     version="1.0",
     description="蔚蓝档案人物反向查询工具",
     options={"build_exe": build_exe_options},
@@ -22,7 +22,7 @@ setup(
             "baslover.py",
             base="Win32GUI",  # 使用Windows GUI模式，不显示控制台
             icon="icon.ico",  # 设置图标
-            target_name="BAguesser反向查询.exe"  # 生成的EXE文件名
+            target_name="BAslover v1.1.exe"  # 生成的EXE文件名
         )
     ]
 ) 
